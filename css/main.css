@@ -1,0 +1,160 @@
+body{
+min-height: 100vh;
+
+    overflow: hidden;
+}
+.sign-up{
+    padding-top: 10vh;
+    padding-left: 8.5vw;
+    padding-right: 8.5vh;
+    width: 83.125vw;
+    height: 80vh;
+    background: #F4F5FC;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 12px 12px 82px rgba(0, 0, 0, 0.20);
+}
+
+.container{
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.input-fields{
+    width: 79.398496240601%;
+    height: 100%;
+    margin-left: 20.631578947368%;
+    position: absolute;
+    padding-left: 2.6vw;
+    font-family: WorkSans;
+}
+
+.sign-up-card{
+    width: 20.631578947368%;
+    height: 100%;
+    position: absolute;
+}
+
+.mask-for-signup-card{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background: #5A61ED;
+}
+
+.mask-for-signup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+}
+
+.sign-up-card-text-position{
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    height: 13.125%;
+    width: 118.07580174927%;
+    margin-top: 77vh;
+    margin-left: 52%;
+}
+
+.sign-up-card-text{
+    color: white;
+    font-size: 6.125vw;
+    font-family: "PT Sans";
+    font-weight: 400;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+}
+
+.subtitle-of-input-fields{
+    color: #111;
+    font-size: 1.75vw;
+    font-weight: 300;
+    background: none;
+    display: block;
+}
+
+.title-of-input-fields{
+    color: #111;
+    font-size: 2.75vw;
+    font-weight: 500;
+    letter-spacing: -0.46px;
+    background: none;
+    display: block;
+    margin-top: 6.42vh;
+}
+
+.input-first-column{
+    margin-bottom: 2.6666666vh;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #F2F2F2;
+    width: 29.375vw;
+    outline: none;
+}
+
+.input-radio-button{
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    margin: 0;
+}
+
+.text-above-input{
+    margin: 0;
+    width: 16vw;
+    color: #7C7C7C;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.first-input-holder{
+    display: inline-block;
+    margin-top: 3.33333333vh;
+}
+
+.second-input-holder{
+    display: inline-block;
+    margin-top: 3.33333333vh;
+    position: fixed;
+}
+
+.gender-text-p-tag{
+    font-size: 1.5vw;
+    margin: 0;
+    margin-bottom: 2.6666666vh;
+    margin-left: 0.0875vw;
+}
+
+.option-of-dmy-choose{
+
+}
+
+.have-an-account{
+    color: #000;
+    font-size: 1.625vw;
+    font-weight: 300;
+    display: block;
+    position: fixed;
+    left: 28.25vw;
+    bottom: 17.1666666vh;
+}
+
+.button-which-sumbit-form{
+    position: fixed;
+    top: 79.253333vh;
+    right: 11.125vw;
+}

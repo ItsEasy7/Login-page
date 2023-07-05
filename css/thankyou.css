@@ -1,0 +1,21 @@
+.thank-you-form{
+    margin-top: 36.086666vh;
+    margin-left: 5.375vw;
+    font-family: WorkSans;
+}
+
+.thank-you-main{
+    color: #111;
+    font-size: 3.66666vh;
+    font-weight: 500;
+    letter-spacing: -0.46px;
+    display: block;
+}
+
+.thank-you-sub-main{
+    margin-top: 1.83vh;
+    color: #111;
+    font-size: 2.333333vh;
+    font-weight: 300;
+    display: block;
+}
